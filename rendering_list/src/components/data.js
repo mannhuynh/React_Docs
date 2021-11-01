@@ -1,4 +1,4 @@
-export const people = [
+export const data = [
 	{
 		id: 0, // Used in JSX as a key
 		name: "Creola Katherine Johnson",
