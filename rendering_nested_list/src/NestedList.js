@@ -5,14 +5,13 @@ export default function NestedList() {
 	const recipesList = recipes.map((recipe) => {
 		return (
 			<ul key={recipe.id}>
-				<li>
-          <h2>{recipe.name}</h2>
-          <li>{
-            recipe.ingredients.map(ingredient =>
-              <li>{ingredient }</li>
-            )
-          }</li>
-				</li>
+				<h2>{recipe.name}</h2>
+
+				<ul>
+					{recipe.ingredients.map((ingredient) => (
+						<li key={ingredient}>{ingredient}</li>
+					))}
+				</ul>
 			</ul>
 		);
 	});
