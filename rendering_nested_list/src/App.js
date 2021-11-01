@@ -2,8 +2,11 @@ import "./App.css";
 import NestedList from "./NestedList";
 
 function App() {
-	return;
-	<NestedList />;
+	return (
+		<>
+			<NestedList />
+		</>
+	);
 }
 
 export default App;
