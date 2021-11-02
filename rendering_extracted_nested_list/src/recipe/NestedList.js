@@ -1,5 +1,5 @@
 import React from "react";
-import { recipes } from "./data";
+import { recipes } from "../data";
 import Recipes from "./Recipes";
 
 export default function NestedList() {
