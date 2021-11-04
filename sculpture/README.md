@@ -4,7 +4,7 @@
 
 Handle events when the state is out of bound of an array.
 
-_Reference_: `Sculpture.js`
+_Reference_: `./src/Sculpture.js`
 
 Initialize the index variable:
 
