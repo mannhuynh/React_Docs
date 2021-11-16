@@ -4,7 +4,7 @@ import Recipes from "./Recipes";
 
 export default function NestedList() {
 	return (
-		<div>
+		<div className="App-header">
 			<h1>Recipes</h1>
 			{recipes.map((recipe) => {
 				return <Recipes {...recipe} key={recipe.id} />;
